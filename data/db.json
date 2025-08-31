@@ -1,0 +1,264 @@
+{
+    "updateFlag": 2025083101,
+    "meta": {
+        "source": "엑셀 스크린샷 요약본",
+        "code": "101",
+        "title": "순천향대학교 셔틀/통학 노선 요약",
+        "versionNote": "이미지에서 읽을 수 있는 범위만 우선 반영. 좌표/세부 주행시간은 미상(null). 추가 제공 시 바로 병합 가능."
+    },
+    "payload": {
+        "stops": [
+            {"stopId": "101-0001", "name": "향설동문(순환)", "lat": "None", "lng": "None"},
+            {"stopId": "101-0002", "name": "향설동문(직행)", "lat": "None", "lng": "None"},
+            {"stopId": "101-0003", "name": "향설동문(종착)", "lat": "None", "lng": "None"},
+            {"stopId": "101-0004", "name": "미디어랩(종착)", "lat": "None", "lng": "None"},
+            {"stopId": "101-0005", "name": "멀티미디어관·항설3관", "lat": "None", "lng": "None"},
+            {"stopId": "101-0006", "name": "항설1·2관·유니토피아", "lat": "None", "lng": "None"},
+            {"stopId": "101-0007", "name": "항설도서관·공과대학", "lat": "None", "lng": "None"},
+            {"stopId": "101-0008", "name": "정문·인문사회대학", "lat": "None", "lng": "None"},
+            {"stopId": "101-0009", "name": "미디어랩스 통학승강장", "lat": "None", "lng": "None"},
+            {"stopId": "101-0010", "name": "신창역", "lat": "None", "lng": "None"},
+            {"stopId": "101-0011", "name": "교대역 14번출구", "lat": "None", "lng": "None"},
+            {"stopId": "101-0012", "name": "둔천역 경부 하행", "lat": "None", "lng": "None"},
+            {"stopId": "101-0013", "name": "죽전 경부 하행", "lat": "None", "lng": "None"},
+            {"stopId": "101-0014", "name": "신갈 경부 하행", "lat": "None", "lng": "None"},
+            {"stopId": "101-0015", "name": "신갈 경부 상행", "lat": "None", "lng": "None"},
+            {"stopId": "101-0016", "name": "죽전 경부 상행", "lat": "None", "lng": "None"},
+            {"stopId": "101-0017", "name": "교대역(종착)", "lat": "None", "lng": "None"},
+            {"stopId": "101-0018", "name": "주안역 1번출구", "lat": "None", "lng": "None"},
+            {"stopId": "101-0019", "name": "문학경기장역 2번출구", "lat": "None", "lng": "None"},
+            {"stopId": "101-0020", "name": "인천터미널역", "lat": "None", "lng": "None"},
+            {"stopId": "101-0021", "name": "주안역(종착)", "lat": "None", "lng": "None"},
+            {"stopId": "101-0022", "name": "송내역·로데오거리", "lat": "None", "lng": "None"},
+            {"stopId": "101-0023", "name": "송내역(종착)", "lat": "None", "lng": "None"},
+            {"stopId": "101-0024", "name": "안산역 1번출구", "lat": "None", "lng": "None"},
+            {"stopId": "101-0025", "name": "중앙역 1번출구", "lat": "None", "lng": "None"},
+            {"stopId": "101-0026", "name": "상록수역 3번출구", "lat": "None", "lng": "None"},
+            {"stopId": "101-0027", "name": "상록수역(하차)", "lat": "None", "lng": "None"},
+            {"stopId": "101-0028", "name": "중앙역(하차)", "lat": "None", "lng": "None"},
+            {"stopId": "101-0029", "name": "안산역(종착)", "lat": "None", "lng": "None"},
+            {"stopId": "101-0031", "name": "유니토피아·산학협력관", "lat": "None", "lng": "None"},
+            {"stopId": "101-9001", "name": "(경유) 학생A 3관", "lat": "None", "lng": "None"},
+            {"stopId": "101-9002", "name": "(경유) 음내리까치골", "lat": "None", "lng": "None"},
+            {"stopId": "101-9003", "name": "(경유) 순천향대사거리", "lat": "None", "lng": "None"},
+            {"stopId": "101-9004", "name": "(경유) 천화학생", "lat": "None", "lng": "None"},
+            {"stopId": "101-9005", "name": "(경유) 행렬IC", "lat": "None", "lng": "None"},
+            {"stopId": "101-9006", "name": "(경유) 안성JC", "lat": "None", "lng": "None"},
+            {"stopId": "101-9007", "name": "(경유) 둔답IC", "lat": "None", "lng": "None"},
+            {"stopId": "101-9008", "name": "(경유) 판교JC", "lat": "None", "lng": "None"},
+            {"stopId": "101-9009", "name": "(경유) 판교JC", "lat": "None", "lng": "None"},
+            {"stopId": "101-9010", "name": "(경유) 군자JC", "lat": "None", "lng": "None"},
+            {"stopId": "101-9011", "name": "(경유) 서하JC", "lat": "None", "lng": "None"},
+            {"stopId": "101-9012", "name": "(경유) 팔탄JC", "lat": "None", "lng": "None"}
+        ],
+        "routes": [
+            {
+                "routeId": 102,
+                "routeNum": "1",
+                "name": "학내순환(순환1)",
+                "type": "순환",
+                "timeTakenMin": 8,
+                "stops": [
+                    {"stopId": "101-0002", "seq": 1, "runMin": 1},
+                    {"stopId": "101-0005", "seq": 2, "runMin": 1},
+                    {"stopId": "101-0006", "seq": 3, "runMin": 1},
+                    {"stopId": "101-0007", "seq": 4, "runMin": 1},
+                    {"stopId": "101-0008", "seq": 5, "runMin": 1},
+                    {"stopId": "101-9003", "seq": 6, "runMin": 1},
+                    {"stopId": "101-9002", "seq": 7, "runMin": 1},
+                    {"stopId": "101-9001", "seq": 8, "runMin": 1},
+                    {"stopId": "101-0001", "seq": 9, "runMin": 1},
+                    {"stopId": "101-0004", "seq": 10, "runMin": 1}
+                ]
+            },
+            {
+                "routeId": 192,
+                "routeNum": "1-1",
+                "name": "학내순환(미디어랩스)",
+                "type": "순환",
+                "timeTakenMin": 9,
+                "stops": [
+                    {"stopId": "101-0002", "seq": 1, "runMin": 1},
+                    {"stopId": "101-0005", "seq": 2, "runMin": 1},
+                    {"stopId": "101-0006", "seq": 3, "runMin": 1},
+                    {"stopId": "101-0007", "seq": 4, "runMin": 1},
+                    {"stopId": "101-0008", "seq": 5, "runMin": 1},
+                    {"stopId": "101-9003", "seq": 6, "runMin": 1},
+                    {"stopId": "101-9002", "seq": 7, "runMin": 1},
+                    {"stopId": "101-9001", "seq": 8, "runMin": 1},
+                    {"stopId": "101-0004", "seq": 9, "runMin": 1}
+                ]
+            },
+            {
+                "routeId": 200,
+                "routeNum": "2",
+                "name": "신창역 직행",
+                "type": "셔틀",
+                "timeTakenMin": 5,
+                "stops": [
+                    {"stopId": "101-0010", "seq": 1, "runMin": 2},
+                    {"stopId": "101-9005", "seq": 2, "runMin": 1},
+                    {"stopId": "101-9006", "seq": 3, "runMin": 1},
+                    {"stopId": "101-0004", "seq": 4, "runMin": 1}
+                ]
+            },
+            {
+                "routeId": 201,
+                "routeNum": "2-1",
+                "name": "신창역 경유",
+                "type": "셔틀",
+                "timeTakenMin": 8,
+                "stops": [
+                    {"stopId": "101-0002", "seq": 1, "runMin": 1},
+                    {"stopId": "101-0005", "seq": 2, "runMin": 1},
+                    {"stopId": "101-0006", "seq": 3, "runMin": 1},
+                    {"stopId": "101-0007", "seq": 4, "runMin": 1},
+                    {"stopId": "101-9003", "seq": 5, "runMin": 1},
+                    {"stopId": "101-0010", "seq": 6, "runMin": 2},
+                    {"stopId": "101-0004", "seq": 7, "runMin": 1}
+                ]
+            },
+            {
+                "routeId": 302,
+                "routeNum": "3",
+                "name": "신창역 출입",
+                "type": "셔틀",
+                "timeTakenMin": 37,
+                "stops": [
+                    {"stopId": "101-0010", "seq": 1, "runMin": 2},
+                    {"stopId": "101-9006", "seq": 2, "runMin": 2},
+                    {"stopId": "101-9007", "seq": 3, "runMin": 2},
+                    {"stopId": "101-9008", "seq": 4, "runMin": 10},
+                    {"stopId": "101-9009", "seq": 5, "runMin": 10},
+                    {"stopId": "101-9010", "seq": 6, "runMin": 10},
+                    {"stopId": "101-0004", "seq": 7, "runMin": 1}
+                ]
+            },
+            {
+                "routeId": 292,
+                "routeNum": "2N",
+                "name": "신창역→한남순환",
+                "type": "순환",
+                "timeTakenMin": 18,
+                "stops": [
+                    {"stopId": "101-0010", "seq": 1, "runMin": 2},
+                    {"stopId": "101-9006", "seq": 2, "runMin": 2},
+                    {"stopId": "101-9007", "seq": 3, "runMin": 2},
+                    {"stopId": "101-9008", "seq": 4, "runMin": 2},
+                    {"stopId": "101-9009", "seq": 5, "runMin": 2},
+                    {"stopId": "101-9010", "seq": 6, "runMin": 2},
+                    {"stopId": "101-0008", "seq": 7, "runMin": 1},
+                    {"stopId": "101-0007", "seq": 8, "runMin": 1},
+                    {"stopId": "101-0006", "seq": 9, "runMin": 1},
+                    {"stopId": "101-0005", "seq": 10, "runMin": 1},
+                    {"stopId": "101-0002", "seq": 11, "runMin": 1},
+                    {"stopId": "101-0004", "seq": 12, "runMin": 1}
+                ]
+            },
+            {
+                "routeId": 282,
+                "routeNum": "2-2",
+                "name": "한남순환→신창역",
+                "type": "순환",
+                "timeTakenMin": 18,
+                "stops": [
+                    {"stopId": "101-0002", "seq": 1, "runMin": 1},
+                    {"stopId": "101-0005", "seq": 2, "runMin": 1},
+                    {"stopId": "101-0006", "seq": 3, "runMin": 1},
+                    {"stopId": "101-0007", "seq": 4, "runMin": 1},
+                    {"stopId": "101-0008", "seq": 5, "runMin": 1},
+                    {"stopId": "101-9003", "seq": 6, "runMin": 2},
+                    {"stopId": "101-9004", "seq": 7, "runMin": 2},
+                    {"stopId": "101-9005", "seq": 8, "runMin": 2},
+                    {"stopId": "101-0010", "seq": 9, "runMin": 2},
+                    {"stopId": "101-0004", "seq": 10, "runMin": 2}
+                ]
+            },
+            {
+                "routeId": 392,
+                "routeNum": "3-1",
+                "name": "수시모집 셔틀버스",
+                "type": "이벤트",
+                "timeTakenMin": 19,
+                "stops": [
+                    {"stopId": "101-9005", "seq": 1, "runMin": 2},
+                    {"stopId": "101-9006", "seq": 2, "runMin": 2},
+                    {"stopId": "101-9007", "seq": 3, "runMin": 2},
+                    {"stopId": "101-9008", "seq": 4, "runMin": 5},
+                    {"stopId": "101-9009", "seq": 5, "runMin": 2},
+                    {"stopId": "101-9010", "seq": 6, "runMin": 2},
+                    {"stopId": "101-0010", "seq": 7, "runMin": 4}
+                ]
+            }
+        ],
+        "timetables": [
+            {
+                "courseId": "101-001",
+                "name": "순환1",
+                "days": ["월","화","수","목","금"],
+                "holidayOperated": "False",
+                "sequence": ["102","192"],
+                "departures": [
+                    {"time": "08:20", "routeId": 102},
+                    {"time": "08:50", "routeId": 192},
+                    {"time": "09:20", "routeId": 102},
+                    {"time": "09:50", "routeId": 192},
+                    {"time": "10:20", "routeId": 102},
+                    {"time": "10:50", "routeId": 192},
+                    {"time": "11:20", "routeId": 102},
+                    {"time": "11:50", "routeId": 192},
+                    {"time": "13:10", "routeId": 102},
+                    {"time": "13:20", "routeId": 192},
+                    {"time": "13:50", "routeId": 102},
+                    {"time": "14:00", "routeId": 192},
+                    {"time": "14:30", "routeId": 102},
+                    {"time": "14:40", "routeId": 192},
+                    {"time": "15:10", "routeId": 102},
+                    {"time": "15:20", "routeId": 192},
+                    {"time": "15:50", "routeId": 102},
+                    {"time": "16:00", "routeId": 192},
+                    {"time": "16:30", "routeId": 102},
+                    {"time": "16:40", "routeId": 192},
+                    {"time": "17:10", "routeId": 102},
+                    {"time": "17:20", "routeId": 192},
+                    {"time": "17:50", "routeId": 102},
+                    {"time": "18:00", "routeId": 192}
+                ]
+            },
+            {
+                "courseId": "101-002",
+                "name": "순환2",
+                "days": ["월","화","수","목","금"],
+                "holidayOperated": "False",
+                "departures": [
+                    {"time": "08:40", "routeId": 102},
+                    {"time": "08:50", "routeId": 192},
+                    {"time": "09:10", "routeId": 102},
+                    {"time": "09:30", "routeId": 192},
+                    {"time": "10:10", "routeId": 102},
+                    {"time": "10:30", "routeId": 192},
+                    {"time": "11:10", "routeId": 102},
+                    {"time": "11:30", "routeId": 192},
+                    {"time": "13:30", "routeId": 102},
+                    {"time": "13:39", "routeId": 192},
+                    {"time": "14:10", "routeId": 102},
+                    {"time": "14:20", "routeId": 192},
+                    {"time": "14:50", "routeId": 102},
+                    {"time": "15:00", "routeId": 192},
+                    {"time": "15:30", "routeId": 102},
+                    {"time": "15:40", "routeId": 192},
+                    {"time": "16:10", "routeId": 102},
+                    {"time": "16:20", "routeId": 192},
+                    {"time": "16:50", "routeId": 102},
+                    {"time": "17:00", "routeId": 192},
+                    {"time": "17:30", "routeId": 102},
+                    {"time": "17:40", "routeId": 192},
+                    {"time": "18:10", "routeId": 200},
+                    {"time": "18:20", "routeId": 201},
+                    {"time": "18:17", "routeId": 102},
+                    {"time": "18:28", "routeId": 192}
+                ]
+            }
+        ]
+    }
+}
