@@ -9,6 +9,7 @@ from datetime import date
 # === 설정 ===
 DATA_DIR = Path(__file__).parent / "data"
 DB_FILE = DATA_DIR / "db.json"
+DB_DATA = DATA_DIR / "data.json"
 SCHEDULES_FILE = DATA_DIR / "schedules.json"
 
 app = FastAPI(title="Shuttle-roid Test Server", version="1.0.0")
@@ -57,25 +58,18 @@ def _read_json(path: Path) -> Dict[str, Any]:
         raise HTTPException(status_code=500, detail=f"Invalid JSON in {path.name}: {e}")
 
 # === 1) 업데이트 체크 ===
-@app.get("/api/update/check", response_model=UpdateCheckResponse)
-def check_update(flag: int = Query(..., description="클라이언트가 가진 updateFlag (정수)")):
+@app.get("/update/check", response_model=bool)
+def check_update(flag: int = Query(..., description="단말 DB버전"), orgID: int = Query(...,description="기관ID")):
     db = _read_json(DB_FILE)
     server_flag = int(db.get("updateFlag", 0))
-    return UpdateCheckResponse(
-        update=(server_flag > flag),
-        clientFlag=flag,
-        serverFlag=server_flag
-    )
+    return server_flag > flag
 
 # === 2) 업데이트 요청(DB JSON 통째 반환) ===
-@app.get("/api/update/json", response_model=DBResponse)
-def get_db_json():
-    db = _read_json(DB_FILE)
-    # 최소 필드 검증
-    if "updateFlag" not in db or "payload" not in db:
-        raise HTTPException(status_code=500, detail="db.json must contain 'updateFlag' and 'payload'")
-    # 그대로 반환
-    return DBResponse(updateFlag=int(db["updateFlag"]), payload=db["payload"])
+@app.get("/update")
+def get_db_json(orgID: int = Query(...,description="기관ID")):
+    print("return db - orgID:", orgID)
+    db = _read_json("data.json")
+    return db
 
 # === 3) 당일 운행 정보 요청 (차량번호 기준) ===
 @app.get("/api/schedule/{car_no}", response_model=ScheduleResponse)

@@ -1,10 +1,12 @@
 from __future__ import annotations
 
 import asyncio
+import json
 from datetime import datetime
 from typing import Optional
+from pathlib import Path
 
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
 
@@ -128,6 +130,19 @@ async def ingest(payload: BusReport, request: Request) -> StoredData:
 async def get_data() -> Optional[StoredData]:
     async with _lock:
         return _latest
+
+def _read_json(path: str):
+    path = Path(path)
+    if not path.exists():
+        raise HTTPException(status_code=500, detail=f"File not found: {path}")
+    with path.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+@app.get("/update")
+def get_db_json(orgID: int = Query(..., description="기관ID")):
+    print("return db - orgID:", orgID)
+    db = _read_json("data.json")
+    return db
 
 # (선택) 직접 실행용 엔트리포인트
 if __name__ == "__main__":

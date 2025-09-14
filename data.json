@@ -1,0 +1,658 @@
+{
+    "organizationId": 101,
+    "updateVersion": 2025090701,
+    "stopList":[
+        {
+            "stopID": "1010001",
+            "stopName": "향설동문(순환)",
+            "latitude": "36.77279",
+            "longitude": "126.93384",
+            "approach": "150",
+            "arrival": "20",
+            "leave": "30"
+        },
+        {
+            "stopID": "1010002",
+            "stopName": "향설동문(직행)",
+            "latitude": "36.77295",
+            "longitude": "126.93318",
+            "approach": "150",
+            "arrival": "20",
+            "leave": "30"
+        },
+        {
+            "stopID": "1010003",
+            "stopName": "향설동문(종착)",
+            "latitude": "36.77299",
+            "longitude": "126.93311",
+            "approach": "150",
+            "arrival": "20",
+            "leave": "30"
+        },
+        {
+            "stopID": "1010004",
+            "stopName": "미디어랩스(종착)",
+            "latitude": "36.77195",
+            "longitude": "126.93096",
+            "approach": "150",
+            "arrival": "20",
+            "leave": "30"
+        },
+        {
+            "stopID": "1010005",
+            "stopName": "멀티미디어관.향설3관",
+            "latitude": "36.76828",
+            "longitude": "126.93536",
+            "approach": "150",
+            "arrival": "20",
+            "leave": "30"
+        },
+        {
+            "stopID": "1010006",
+            "stopName": "향설1.2관.유니토피아",
+            "latitude": "36.76787",
+            "longitude": "126.93261",
+            "approach": "150",
+            "arrival": "20",
+            "leave": "30"
+        },
+        {
+            "stopID": "1010007",
+            "stopName": "향설도서관.공과대학",
+            "latitude": "36.76887",
+            "longitude": "126.93122",
+            "approach": "150",
+            "arrival": "20",
+            "leave": "30"
+        },
+        {
+            "stopID": "1010008",
+            "stopName": "정문.인문사회대학",
+            "latitude": "33.4507",
+            "longitude": "126.57066",
+            "approach": "150",
+            "arrival": "20",
+            "leave": "30"
+        },
+        {
+            "stopID": "1010009",
+            "stopName": "미디어랩스 통학승강장",
+            "latitude": "36.77211",
+            "longitude": "126.93127",
+            "approach": "150",
+            "arrival": "20",
+            "leave": "30"
+        },
+        {
+            "stopID": "1010010",
+            "stopName": "신창역",
+            "latitude": "36.76928",
+            "longitude": "126.94946",
+            "approach": "150",
+            "arrival": "20",
+            "leave": "30"
+        },
+        {
+            "stopID": "1010011",
+            "stopName": "교대역 14번출구",
+            "latitude": "37.49198",
+            "longitude": "127.01315",
+            "approach": "300",
+            "arrival": "50",
+            "leave": "150"
+        },
+        {
+            "stopID": "1010012",
+            "stopName": "동천역 경부 하행",
+            "latitude": "37.3387",
+            "longitude": "127.10321",
+            "approach": "1500",
+            "arrival": "50",
+            "leave": "300"
+        },
+        {
+            "stopID": "1010013",
+            "stopName": "죽전 경부 하행",
+            "latitude": "37.32625",
+            "longitude": "127.10314",
+            "approach": "1500",
+            "arrival": "50",
+            "leave": "300"
+        },
+        {
+            "stopID": "1010014",
+            "stopName": "신갈 경부 하행",
+            "latitude": "37.27274",
+            "longitude": "127.10343",
+            "approach": "1500",
+            "arrival": "50",
+            "leave": "300"
+        },
+        {
+            "stopID": "1010015",
+            "stopName": "신갈 경부 상행",
+            "latitude": "37.2737",
+            "longitude": "127.10395",
+            "approach": "1500",
+            "arrival": "50",
+            "leave": "300"
+        },
+        {
+            "stopID": "1010016",
+            "stopName": "죽전 경부 상행",
+            "latitude": "37.32653",
+            "longitude": "127.10378",
+            "approach": "1500",
+            "arrival": "50",
+            "leave": "300"
+        },
+        {
+            "stopID": "1010017",
+            "stopName": "교대역(종착)",
+            "latitude": "37.49373",
+            "longitude": "127.01369",
+            "approach": "1500",
+            "arrival": "500",
+            "leave": "500"
+        },
+        {
+            "stopID": "1010018",
+            "stopName": "주안역 1번출구",
+            "latitude": "37.46403",
+            "longitude": "126.68338",
+            "approach": "300",
+            "arrival": "50",
+            "leave": "150"
+        },
+        {
+            "stopID": "1010019",
+            "stopName": "문학경기장역 2번출구",
+            "latitude": "37.43457",
+            "longitude": "126.69734",
+            "approach": "300",
+            "arrival": "50",
+            "leave": "150"
+        },
+        {
+            "stopID": "1010020",
+            "stopName": "인천터미널역",
+            "latitude": "37.44194",
+            "longitude": "126.69986",
+            "approach": "1500",
+            "arrival": "500",
+            "leave": "500"
+        },
+        {
+            "stopID": "1010021",
+            "stopName": "주안역(종착)",
+            "latitude": "37.46411",
+            "longitude": "126.68031",
+            "approach": "1500",
+            "arrival": "500",
+            "leave": "500"
+        },
+        {
+            "stopID": "1010022",
+            "stopName": "송내역.로데오거리",
+            "latitude": "37.49021",
+            "longitude": "126.75383",
+            "approach": "300",
+            "arrival": "50",
+            "leave": "150"
+        },
+        {
+            "stopID": "1010023",
+            "stopName": "송내역(종착)",
+            "latitude": "37.48766",
+            "longitude": "126.75345",
+            "approach": "1500",
+            "arrival": "500",
+            "leave": "800"
+        },
+        {
+            "stopID": "1010024",
+            "stopName": "안산역 1번출구",
+            "latitude": "37.32741",
+            "longitude": "126.79006",
+            "approach": "300",
+            "arrival": "50",
+            "leave": "150"
+        },
+        {
+            "stopID": "1010025",
+            "stopName": "중앙역 1번출구",
+            "latitude": "37.31627",
+            "longitude": "126.84021",
+            "approach": "300",
+            "arrival": "50",
+            "leave": "150"
+        },
+        {
+            "stopID": "1010026",
+            "stopName": "상록수역 3번출구",
+            "latitude": "37.30239",
+            "longitude": "126.86435",
+            "approach": "300",
+            "arrival": "50",
+            "leave": "150"
+        },
+        {
+            "stopID": "1010027",
+            "stopName": "상록수역(하차)",
+            "latitude": "37.30257",
+            "longitude": "126.86484",
+            "approach": "300",
+            "arrival": "50",
+            "leave": "150"
+        },
+        {
+            "stopID": "1010028",
+            "stopName": "중앙역(하차)",
+            "latitude": "37.31627",
+            "longitude": "126.84021",
+            "approach": "300",
+            "arrival": "50",
+            "leave": "150"
+        },
+        {
+            "stopID": "1010029",
+            "stopName": "안산역(종착)",
+            "latitude": "37.32741",
+            "longitude": "126.79006",
+            "approach": "1500",
+            "arrival": "500",
+            "leave": "500"
+        },
+        {
+            "stopID": "1010030",
+            "stopName": "유니토피아 3층",
+            "latitude": "36.76869",
+            "longitude": "126.93344",
+            "approach": "150",
+            "arrival": "30",
+            "leave": "50"
+        },
+        {
+            "stopID": "1010031",
+            "stopName": "유니토피아.산학협력관",
+            "latitude": "36.76962",
+            "longitude": "126.93327",
+            "approach": "150",
+            "arrival": "30",
+            "leave": "50"
+        },
+        {
+            "stopID": "1010032",
+            "stopName": "동탄역.롯데캐슬",
+            "latitude": "37.19974",
+            "longitude": "127.09857",
+            "approach": "300",
+            "arrival": "30",
+            "leave": "50"
+        },
+        {
+            "stopID": "1019001",
+            "stopName": "(경유) 학성사 3관",
+            "latitude": "36.77142",
+            "longitude": "126.93466",
+            "approach": "150",
+            "arrival": "30",
+            "leave": "50"
+        },
+        {
+            "stopID": "1019002",
+            "stopName": "(경유) 읍내리까치골",
+            "latitude": "36.77332",
+            "longitude": "126.93132",
+            "approach": "150",
+            "arrival": "30",
+            "leave": "50"
+        },
+        {
+            "stopID": "1019003",
+            "stopName": "(경유) 순천향대삼거리",
+            "latitude": "36.7747",
+            "longitude": "126.93254",
+            "approach": "150",
+            "arrival": "30",
+            "leave": "50"
+        },
+        {
+            "stopID": "1019004",
+            "stopName": "(경유) 경희학성",
+            "latitude": "36.77143",
+            "longitude": "126.93574",
+            "approach": "500",
+            "arrival": "50",
+            "leave": "100"
+        },
+        {
+            "stopID": "1019005",
+            "stopName": "(경유) 행목리",
+            "latitude": "36.76837",
+            "longitude": "126.94284",
+            "approach": "500",
+            "arrival": "50",
+            "leave": "100"
+        },
+        {
+            "stopID": "1019006",
+            "stopName": "(경유) 안성JC",
+            "latitude": "37.03607",
+            "longitude": "127.13892",
+            "approach": "4000",
+            "arrival": "500",
+            "leave": "2000"
+        },
+        {
+            "stopID": "1019007",
+            "stopName": "(경유) 동탄JC",
+            "latitude": "37.17789",
+            "longitude": "127.09603",
+            "approach": "4000",
+            "arrival": "500",
+            "leave": "2000"
+        },
+        {
+            "stopID": "1019008",
+            "stopName": "(경유) 서평택JC",
+            "latitude": "37.05426",
+            "longitude": "126.88849",
+            "approach": "4000",
+            "arrival": "500",
+            "leave": "2000"
+        },
+        {
+            "stopID": "1019009",
+            "stopName": "(경유) 마도JC",
+            "latitude": "37.18762",
+            "longitude": "126.77618",
+            "approach": "4000",
+            "arrival": "500",
+            "leave": "2000"
+        },
+        {
+            "stopID": "1019010",
+            "stopName": "(경유) 군자JC",
+            "latitude": "37.36264",
+            "longitude": "126.7688",
+            "approach": "4000",
+            "arrival": "500",
+            "leave": "2000"
+        },
+        {
+            "stopID": "1019011",
+            "stopName": "(경유) 서창JC",
+            "latitude": "37.43298",
+            "longitude": "126.73848",
+            "approach": "4000",
+            "arrival": "500",
+            "leave": "2000"
+        },
+        {
+            "stopID": "1019012",
+            "stopName": "(경유) 팔탄JC",
+            "latitude": "37.19102",
+            "longitude": "126.87213",
+            "approach": "4000",
+            "arrival": "500",
+            "leave": "2000"
+        }
+    ]
+    ,
+    "routeList":[
+        {
+            "routeID": "102",
+            "routeName": "학내순환(순환)",
+            "spendTime": "8",
+            "stopIds": [
+                1010001,
+                1019001,
+                1010005,
+                1010006,
+                1010007,
+                1010008,
+                1019002,
+                1019003,
+                1010001
+            ]
+        },
+        {
+            "routeID": "191",
+            "routeName": "학내순환(미디어랩스)",
+            "spendTime": "9",
+            "stopIds": [
+                1010001,
+                1019001,
+                1010005,
+                1010006,
+                1010007,
+                1010008,
+                1019002,
+                1019003,
+                1010002,
+                1010004
+            ]
+        },
+        {
+            "routeID": "181",
+            "routeName": "학내순환(오전 단축)",
+            "spendTime": "5",
+            "stopIds": [
+                1010001,
+                1019001,
+                1010005,
+                1010006,
+                1010007,
+                1010008
+            ]
+        },
+        {
+            "routeID": "200",
+            "routeName": "신창역 직행",
+            "spendTime": "5",
+            "stopIds": [
+                1010002,
+                1019004,
+                1019005,
+                1010010
+            ]
+        },
+        {
+            "routeID": "201",
+            "routeName": "신창역 직행",
+            "spendTime": "8",
+            "stopIds": [
+                1010010,
+                1019005,
+                1019004,
+                1010003,
+                1010004
+            ]
+        },
+        {
+            "routeID": "292",
+            "routeName": "신창역 순환(등교)",
+            "spendTime": "18",
+            "stopIds": [
+                1010010,
+                1019005,
+                1019004,
+                1010001,
+                1019001,
+                1010005,
+                1010006,
+                1010007,
+                1010008,
+                1019002,
+                1019003,
+                1019004,
+                1019005,
+                1010010
+            ]
+        },
+        {
+            "routeID": "282",
+            "routeName": "신창역 순환(하교)",
+            "spendTime": "18",
+            "stopIds": [
+                1010002,
+                1019001,
+                1010005,
+                1010006,
+                1010007,
+                1010008,
+                1019002,
+                1019003,
+                1019004,
+                1019005,
+                1010010,
+                1019005,
+                1019004,
+                1010003,
+                1010004
+            ]
+        },
+        {
+            "routeID": "302",
+            "routeName": "신창역 휴일",
+            "spendTime": "18",
+            "stopIds": [
+                1010010,
+                1019005,
+                1019004,
+                1010001,
+                1019001,
+                1010005,
+                1010006,
+                1019004,
+                1019005,
+                1010010
+            ]
+        },
+        {
+            "routeID": "392",
+            "routeName": "수시면접 셔틀",
+            "spendTime": "392",
+            "stopIds": [
+                1010010,
+                1019005,
+                1019004,
+                1010001,
+                1019001,
+                1010030,
+                1010031,
+                1019004,
+                1019005,
+                1010010
+            ]
+        },
+        {
+            "routeID": "100000",
+            "routeName": "교대 하교",
+            "spendTime": "100",
+            "stopIds": [
+                1010009,
+                1019006,
+                1019007,
+                1010015,
+                1010016,
+                1010017
+            ]
+        },
+        {
+            "routeID": "100001",
+            "routeName": "교대 등교",
+            "spendTime": "120",
+            "stopIds": [
+                1010011,
+                1010012,
+                1010013,
+                1010014,
+                1019007,
+                1019006,
+                1010004
+            ]
+        },
+        {
+            "routeID": "110000",
+            "routeName": "인천 하교",
+            "spendTime": "110",
+            "stopIds": [
+                1010009,
+                1019008,
+                1019009,
+                1019010,
+                1019011,
+                1010020,
+                1010021
+            ]
+        },
+        {
+            "routeID": "110001",
+            "routeName": "인천 등교",
+            "spendTime": "140",
+            "stopIds": [
+                1010018,
+                1010019,
+                1019011,
+                1019010,
+                1019009,
+                1019008,
+                1010004
+            ]
+        },
+        {
+            "routeID": "120000",
+            "routeName": "부천 하교",
+            "spendTime": "95",
+            "stopIds": [
+                1010009,
+                1019008,
+                1019009,
+                1019010,
+                1019011,
+                1010021
+            ]
+        },
+        {
+            "routeID": "120001",
+            "routeName": "부천 등교",
+            "spendTime": "125",
+            "stopIds": [
+                1010022,
+                1019011,
+                1019010,
+                1010009,
+                1019008,
+                1010004
+            ]
+        },
+        {
+            "routeID": "130000",
+            "routeName": "안산 하교",
+            "spendTime": "90",
+            "stopIds": [
+                1010009,
+                1019008,
+                1019012,
+                1010027,
+                1010028,
+                1010029
+            ]
+        },
+        {
+            "routeID": "130001",
+            "routeName": "안산 등교",
+            "spendTime": "120",
+            "stopIds": [
+                1010024,
+                1010025,
+                1010026,
+                1019012,
+                1019008,
+                1010004
+            ]
+        }
+    ]
+}
