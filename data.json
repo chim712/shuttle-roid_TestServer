@@ -68,8 +68,8 @@
         {
             "stopID": "1010008",
             "stopName": "정문.인문사회대학",
-            "latitude": "33.4507",
-            "longitude": "126.57066",
+            "latitude": "36.768963",
+            "longitude": "126.927971",
             "approach": "150",
             "arrival": "20",
             "leave": "30"

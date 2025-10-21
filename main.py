@@ -6,8 +6,9 @@ from datetime import datetime
 from typing import Optional
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi import FastAPI, HTTPException, Query, Request, status
 from fastapi.responses import HTMLResponse
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 
 # =========================
@@ -138,13 +139,79 @@ def _read_json(path: str):
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
-@app.get("/update")
-def get_db_json(orgID: int = Query(..., description="기관ID")):
-    print("return db - orgID:", orgID)
-    db = _read_json("data.json")
-    return db
+# @app.get("/update")
+# def get_db_json(orgID: int = Query(..., description="기관ID")):
+#     print("return db - orgID:", orgID)
+#     db = _read_json("data.json")
+#     return db
 
 # (선택) 직접 실행용 엔트리포인트
 if __name__ == "__main__":
     import os, uvicorn
     uvicorn.run("main:app", host="0.0.0.0", port=int(os.getenv("PORT", "9443")), reload=True)
+
+
+
+
+# ==============================
+# 25. 10. 20. mk3 end-point
+# ==============================
+
+class OrgCheckReq(BaseModel):
+    orgID: int
+
+class LoginReq(BaseModel):
+    orgID: int
+    driverID: int
+    password: str
+
+class Location(BaseModel):
+    orgID: int
+    vehicleID: str
+    stopID: int
+    status: str
+
+class RouteReport(BaseModel):
+    orgID: int
+    courseID: int
+    routeID: int
+    departTime: str
+    vehicleID: str
+    flag: bool
+
+# ============= Methods========
+@app.post("/auth/login")
+def reqLogin(req: LoginReq):
+    print(f"[Login Request] OrgId: {req.orgID}, DriverID: {req.driverID}")
+    return {"vehicleID": "충남72자1103"}
+
+@app.post("/org/check")
+def reqOrgCheck(req: OrgCheckReq):
+    print(f"[Org Check] OrgID: {req.orgID}")
+    return {"orgName": "아산여객"}
+
+@app.get("/update")
+def reqUpdate(orgID: int, dataVer: int):
+    print(f"[Update Request] OrgID: {orgID}, DataVer: {dataVer}")
+    db = _read_json("data.json")
+    return db
+
+@app.get("/schedule")
+def reqSchedule(orgID: int, driverID: int):
+    print(f"[Scheduling Request] OrgID: {orgID}, DriverID: {driverID}")
+    db = _read_json("101001.json")
+    return db
+
+@app.post("/location")
+def locationEvent(data: Location):
+    print(f"[Location Event] vehicleID: {data.vehicleID}, stopID: {data.stopID}, status: {data.status}")
+    return JSONResponse({"ok": True}, status_code=status.HTTP_200_OK)
+
+@app.post("/route/start")
+def routeStart(data: RouteReport):
+    print(f"[Start Drive] vehicleID: {data.vehicleID}, routeID: {data.routeID}, flag:", end="")
+    if data.flag:
+        print("Start")
+    else:
+        print("Terminate")
+    return JSONResponse({"ok": True}, status_code=status.HTTP_200_OK)

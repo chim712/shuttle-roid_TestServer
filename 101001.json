@@ -1,0 +1,114 @@
+[
+    {
+        "routeID": "102",
+        "departureTime": "03:08"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "03:15"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "09:00"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "09:10"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "09:40"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "09:50"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "10:20"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "10:30"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "11:00"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "11:10"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "11:40"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "11:50"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "13:10"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "13:20"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "13:50"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "14:00"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "14:30"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "14:40"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "15:10"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "15:20"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "15:50"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "16:00"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "16:30"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "16:40"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "17:10"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "17:20"
+    },
+    {
+        "routeID": "102",
+        "departureTime": "17:50"
+    },
+    {
+        "routeID": "191",
+        "departureTime": "18:00"
+    }
+]
